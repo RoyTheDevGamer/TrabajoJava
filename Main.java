@@ -1,40 +1,26 @@
-
+package org.example;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
-    public String fDatosDelCliente(){
-        Scanner auron = new Scanner(System.in);
-        String correo,contra,opc,contrare,nombre,apellido,dni;
-        System.out.println("Bienvenido a SEHS OnlineShop");
-        System.out.println("¿Aun no tienes cuenta?");
-        System.out.println("Si/No");
-        opc =auron.next();
-        if (opc.equals("Si")){
-            System.out.println("Ingrese su Correo Electronico");
-            correo=auron.nextLine();
-            System.out.println("Ingrese su Contraseña");
-            contra= auron.nextLine();
+    public static void main(String[] args) {
+        System.out.println("Hello and welcome!\n");
+        int nomVec1 [] ={1,2,3,4,5,6,7,8,9,10};
+        Persona nomVec2 [] ={new Persona("Juan","",'M'), new Persona("Pablito","",'M')};
+        System.out.println("Registro de asistencia");
+        Scanner leer = new Scanner(System.in);
+        for (int dato:nomVec1){
+            System.out.println(dato);
         }
-        else if(opc.equals("No")){
-            System.out.println("Ingrese su Correo Electronico");
-            correo=auron.nextLine();
-            System.out.println("Ingrese su Contraseña");
-            contra= auron.nextLine();
-            System.out.println("Repita la contraseña");
-            contrare= auron.nextLine();
-            System.out.println("Ingrese sus Nombres");
-            nombre= auron.nextLine();
-            System.out.println("Ingrese sus Apellidos");
-            apellido= auron.nextLine();
-            System.out.println("Ingrese su Documento de indentidad");
-            dni= auron.nextLine();
-
-        }
-        else {
-            System.out.println("Dato no valido");
+        for (Persona dato:nomVec2){
+            System.out.print("Esta presente? "+ dato.getNombre()+": ");
+            dato.fechaReg=new Date();
+            dato.setEstadoAsis(leer.nextLine());
         }
 
-
-        return null;
+        System.out.println("Mostrar la asistencia");
+        for (Persona dato:nomVec2){
+            System.out.println(dato.getNombre()+ " - "+dato.getEstadoAsis()+ " - "+dato.getGenero()+ " - " +dato.fechaReg);
+        }
+        }
     }
-}
