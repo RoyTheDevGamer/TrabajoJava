@@ -22,87 +22,108 @@
                           </columnConstraints>
                           <rowConstraints>
                               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Button fx:id="btn7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="49.0" prefWidth="66.0" text="7">
+                              <Button fx:id="btn7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="49.0" prefWidth="66.0" text="7" GridPane.rowIndex="1">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="117.0" prefWidth="119.0" text="8" GridPane.columnIndex="1">
+                              <Button fx:id="btn8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="117.0" prefWidth="119.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="123.0" prefWidth="126.0" text="9" GridPane.columnIndex="2">
+                              <Button fx:id="btn9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="123.0" prefWidth="126.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btnDiv" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="124.0" prefWidth="103.0" text="/" GridPane.columnIndex="3">
+                              <Button fx:id="btnDiv" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="124.0" prefWidth="103.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="109.0" prefWidth="119.0" text="4" GridPane.rowIndex="1">
+                              <Button fx:id="btn4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="109.0" prefWidth="119.0" text="4" GridPane.rowIndex="2">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="78.0" prefWidth="137.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                              <Button fx:id="btn5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="78.0" prefWidth="137.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="89.0" prefWidth="139.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                              <Button fx:id="btn6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="89.0" prefWidth="139.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="143.0" prefWidth="118.0" text="1" GridPane.rowIndex="2">
+                              <Button fx:id="btn1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="143.0" prefWidth="118.0" text="1" GridPane.rowIndex="3">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="100.0" prefWidth="157.0" text="0" GridPane.rowIndex="3">
+                              <Button fx:id="btn0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="100.0" prefWidth="157.0" text="0" GridPane.rowIndex="4">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="107.0" prefWidth="140.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                              <Button fx:id="btn2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="107.0" prefWidth="140.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btnC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="135.0" prefWidth="128.0" text="C" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                              <Button fx:id="btnC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="135.0" prefWidth="128.0" text="C" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btn3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="108.0" prefWidth="136.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                              <Button fx:id="btn3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="108.0" prefWidth="136.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btnIgu" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="103.0" prefWidth="137.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                              <Button fx:id="btnIgu" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="103.0" prefWidth="137.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btnMul" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="96.0" prefWidth="125.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                              <Button fx:id="btnMul" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="72.0" prefWidth="100.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btnRes" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="84.0" prefWidth="114.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                              <Button fx:id="btnRes" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="42.0" prefWidth="100.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3">
                                  <font>
-                                    <Font size="36.0" />
+                                    <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="btnSum" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="78.0" prefWidth="124.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                              <Button fx:id="btnSum" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" prefHeight="78.0" prefWidth="124.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnPot" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" text="^">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnRai" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" text="√" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btn1So" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" text="1/" GridPane.columnIndex="2">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnPi" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accionButton" text=" π" GridPane.columnIndex="3">
                                  <font>
                                     <Font size="24.0" />
                                  </font>
