@@ -136,10 +136,13 @@
                 </Pane>
                 <AnchorPane prefHeight="200.0">
                <children>
-                  <TableView layoutX="14.0" layoutY="14.0" prefHeight="200.0">
+                  <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="200.0">
                     <columns>
-                      <TableColumn prefWidth="75.0" text="C1" />
-                      <TableColumn prefWidth="75.0" text="C2" />
+                      <TableColumn fx:id="cVal1" prefWidth="75.0" text="Val1" />
+                      <TableColumn fx:id="cVal2" prefWidth="75.0" text="Val2" />
+                        <TableColumn fx:id="cOper" prefWidth="75.0" text="Operador" />
+                        <TableColumn fx:id="cResult" prefWidth="75.0" text="Resultado" />
+                        <TableColumn fx:id="cOpc" minWidth="20.0" prefWidth="75.0" text="Opciones" />
                     </columns>
                   </TableView>
                </children></AnchorPane>
