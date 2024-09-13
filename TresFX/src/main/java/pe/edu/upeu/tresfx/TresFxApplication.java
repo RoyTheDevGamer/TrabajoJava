@@ -31,7 +31,7 @@ public class TresFxApplication extends Application {
 		builder.application().setWebApplicationType(WebApplicationType.NONE);
 		configurableApplicationContext =
 				builder.run(getParameters().getRaw().toArray(new String[0]));
-		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/calc.fxml"));
+		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/michi.fxml"));
 		fxmlLoader.setControllerFactory(configurableApplicationContext::getBean);
 		parent= fxmlLoader.load();
 	}
@@ -53,7 +53,7 @@ public class TresFxApplication extends Application {
 		//scene.getStylesheets().add(getClass().getResource("/css/bootstrap3.css").toExternalForm());
 		scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
 		stage.setScene(scene);
-		stage.setTitle("Proyecto Michi");
+		stage.setTitle("Michii");
 		stage.show();
 	}
 
